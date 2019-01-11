@@ -1,0 +1,25 @@
+uuid: 66ed1ac9-488d-4107-958c-e0367af0fe37
+langcode: en
+status: false
+dependencies: {  }
+id: dev
+label: dev
+description: ''
+folder: ../config/dev
+module:
+  admin_toolbar_tools: 0
+  dblog: 0
+  devel: 0
+  devel_generate: 0
+  field_ui: 0
+  help: 0
+  kint: 0
+  module_filter: 0
+  views_ui: 0
+  webprofiler: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
