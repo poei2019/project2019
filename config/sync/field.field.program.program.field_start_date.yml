@@ -1,0 +1,23 @@
+uuid: 93507545-d659-49c3-9bfb-0b1e9cf45417
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.program.field_start_date
+  module:
+    - datetime
+    - program
+_core:
+  default_config_hash: oUy1ziVjaKqzaxcIjlN-kMMwCNo3ebw09n3Yc_zDIAo
+id: program.program.field_start_date
+field_name: field_start_date
+entity_type: program
+bundle: program
+label: 'Start date'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

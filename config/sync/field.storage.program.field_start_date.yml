@@ -1,0 +1,22 @@
+uuid: 2edb48e5-5f15-4810-a344-c513fc518d1e
+langcode: en
+status: true
+dependencies:
+  module:
+    - datetime
+    - program
+_core:
+  default_config_hash: 1QKy6P9kyn4WcW0LwkIfQhbcJEY96fimVdkZueNDArw
+id: program.field_start_date
+field_name: field_start_date
+entity_type: program
+type: datetime
+settings:
+  datetime_type: date
+module: datetime
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -7,6 +7,10 @@ dependencies:
     - paragraphs.paragraphs_type.conditions_generales
   module:
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: paragraph.conditions_generales.default
 targetEntityType: paragraph
 bundle: conditions_generales

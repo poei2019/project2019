@@ -1,0 +1,26 @@
+uuid: 7b52eea2-a890-4f77-bc9f-0f12f356ef98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.program.field_budget
+  module:
+    - program
+_core:
+  default_config_hash: hK2-5mLIcvkakK5S6Iqe-IRg5yMIFCeDBudHLeqbXU4
+id: program.program.field_budget
+field_name: field_budget
+entity_type: program
+bundle: program
+label: Budget
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: €
+  suffix: ''
+field_type: float

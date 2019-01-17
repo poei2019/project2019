@@ -1,0 +1,23 @@
+uuid: d114ee24-425e-49ef-bcf8-76ee1697c0fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - program
+_core:
+  default_config_hash: s4NmTRtbiKgLknPMrUh2KM23KH65I7oGsPE4PNjTSzM
+id: program.field_program_manager
+field_name: field_program_manager
+entity_type: program
+type: string
+settings:
+  max_length: 100
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
