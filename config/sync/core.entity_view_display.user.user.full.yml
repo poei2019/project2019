@@ -1,8 +1,9 @@
-uuid: cbb08356-abc1-414b-a3fc-86efb8d835d1
+uuid: fc25b4c7-a8a3-4bf1-a84e-37d090e39d44
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.user.full
     - field.field.user.user.field_city
     - field.field.user.user.field_country
     - field.field.user.user.field_first_name
@@ -16,14 +17,14 @@ dependencies:
     - user
 _core:
   default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
-id: user.user.default
+id: user.user.full
 targetEntityType: user
 bundle: user
-mode: default
+mode: full
 content:
   field_city:
     type: string
-    weight: 4
+    weight: 3
     region: content
     label: inline
     settings:
@@ -31,39 +32,39 @@ content:
     third_party_settings: {  }
   field_country:
     type: string
-    weight: 5
+    weight: 4
     region: content
     label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
   field_first_name:
-    weight: 1
+    type: string
+    weight: 0
+    region: content
     label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
-    region: content
   field_last_name:
-    weight: 2
+    type: string
+    weight: 1
+    region: content
     label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
-    region: content
   field_organization_company:
-    weight: 3
+    type: string
+    weight: 2
+    region: content
     label: inline
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    type: string
-    region: content
   field_specific_indications:
     type: string
-    weight: 7
+    weight: 6
     region: content
     label: inline
     settings:
@@ -71,7 +72,7 @@ content:
     third_party_settings: {  }
   field_web_site:
     type: link
-    weight: 6
+    weight: 5
     region: content
     label: inline
     settings:
