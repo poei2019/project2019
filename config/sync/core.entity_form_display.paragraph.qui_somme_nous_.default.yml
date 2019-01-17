@@ -7,6 +7,10 @@ dependencies:
     - paragraphs.paragraphs_type.qui_somme_nous_
   module:
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
 id: paragraph.qui_somme_nous_.default
 targetEntityType: paragraph
 bundle: qui_somme_nous_

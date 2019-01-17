@@ -1,0 +1,22 @@
+
+# Program menu items definition
+entity.program.collection:
+  title: 'Program list'
+  route_name: entity.program.collection
+  description: 'List Program entities'
+  parent: system.admin
+  weight: 100
+
+program.admin.structure.settings:
+  title: 'Program settings'
+  description: 'Configure Program entities'
+  route_name: program.settings
+  parent: system.admin_structure
+
+program.create:
+  title: Create program
+  description: 'Create a new program'
+  route_name: entity.program.add_form
+  menu: admin
+  parent: system.admin
+
