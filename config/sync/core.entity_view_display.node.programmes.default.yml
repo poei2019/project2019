@@ -1,0 +1,28 @@
+uuid: c8ad4492-c3c0-4998-8102-0601641bc320
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.programmes.field_description
+    - node.type.programmes
+  module:
+    - text
+    - user
+id: node.programmes.default
+targetEntityType: node
+bundle: programmes
+mode: default
+content:
+  field_description:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,37 @@
+uuid: 2e0eda00-e401-47e7-9835-2ef386ddc0b5
+langcode: en
+status: true
+dependencies: {  }
+id: manager
+label: manager
+weight: 4
+is_admin: null
+permissions:
+  - 'Add new program'
+  - 'access comments'
+  - 'access content'
+  - 'access content overview'
+  - 'access toolbar'
+  - 'add program entities'
+  - 'administer program display'
+  - 'administer program entities'
+  - 'create hotels content'
+  - 'create programmes content'
+  - 'delete own hotels content'
+  - 'delete program entities'
+  - 'edit own hotels content'
+  - 'edit program entities'
+  - 'post comments'
+  - 'use editorial transition archive'
+  - 'use editorial transition archived_draft'
+  - 'use editorial transition archived_published'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition en_attente_de_validation'
+  - 'use editorial transition publish'
+  - 'use editorial transition rejet_de_validation'
+  - 'use editorial transition validation'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view published program entities'
+  - 'view unpublished program entities'

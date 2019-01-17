@@ -1,0 +1,20 @@
+uuid: b3ff8ed7-57b6-4ee1-8a8b-a45f6bce3d7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - program
+_core:
+  default_config_hash: OWSRcNaQuyZhQXu5zozjWvzDQ1rWHA6PnbOw419L9Mw
+id: program.field_budget
+field_name: field_budget
+entity_type: program
+type: float
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

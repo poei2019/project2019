@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.program.field_start_date
+  module:
+    - datetime
+    - program
+id: program.program.field_start_date
+field_name: field_start_date
+entity_type: program
+bundle: program
+label: 'Start date'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

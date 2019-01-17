@@ -1,0 +1,16 @@
+uuid: 124c8a9e-f670-4fae-aaf7-254c0f3ee045
+langcode: en
+status: true
+dependencies: {  }
+id: participant
+label: participant
+weight: 3
+is_admin: null
+permissions:
+  - 'Add new program'
+  - 'access toolbar'
+  - 'add program entities'
+  - 'create page content'
+  - 'create programmes content'
+  - 'delete own hotels content'
+  - 'view published program entities'

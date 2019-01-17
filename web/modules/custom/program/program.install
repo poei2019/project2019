@@ -1,0 +1,38 @@
+<?php
+/*
+ *
+ */
+use Drupal\Core\Database\Database ;
+function program_schema(){
+  $schema['program_history'] = [
+    'description' => 'Stores programs statistics.',
+    'fields' => [
+      'id' => [
+        'description' => 'Primary Key: Unique history ID.',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ],
+      'pid' => [
+
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'length' => 10,
+      ],
+      'uid' => [
+
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'length' => 10,
+      ],
+    ],
+    'primary key' => ['id'],
+  ];
+
+  return $schema;
+
+
+}
+

@@ -1,5 +1,6 @@
 module:
   admin_toolbar: 0
+  admin_toolbar_links_access_filter: 0
   automated_cron: 0
   big_pipe: 0
   block: 0
@@ -10,8 +11,10 @@ module:
   comment: 0
   config: 0
   config_filter: 0
+  config_perms: 0
   config_split: 0
   contact: 0
+  content_moderation: 0
   contextual: 0
   csv_serialization: 0
   datetime: 0
@@ -30,9 +33,11 @@ module:
   options: 0
   page_cache: 0
   path: 0
+  program: 0
   quickedit: 0
   radix_layouts: 0
   rdf: 0
+  registration_role: 0
   rest: 0
   search: 0
   serialization: 0
@@ -45,6 +50,7 @@ module:
   user: 0
   views_data_export: 0
   webform: 0
+  workflows: 0
   menu_link_content: 1
   views: 10
   paragraphs: 11
