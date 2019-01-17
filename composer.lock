@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "409e003fde24464dff0f82dc10830f64",
     "hash": "12f74194c0d1d9571c283559f5f5dc1a",
+    "content-hash": "4ea9a4ac49a53ab41fef9b43162429f2",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1733,73 +1733,6 @@
             }
         },
         {
-            "name": "drupal/config_perms",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/config_perms",
-                "reference": "8.x-1.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/config_perms-8.x-1.1.zip",
-                "reference": "8.x-1.1",
-                "shasum": "708619cf3ee2f1f16a71414a6ff79f1f4803aa42"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-1.1",
-                    "datestamp": "1510164716",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Docc",
-                    "homepage": "https://www.drupal.org/user/310132"
-                },
-                {
-                    "name": "benellefimostfa",
-                    "homepage": "https://www.drupal.org/user/3092403"
-                },
-                {
-                    "name": "gnuget",
-                    "homepage": "https://www.drupal.org/user/992990"
-                },
-                {
-                    "name": "mlncn",
-                    "homepage": "https://www.drupal.org/user/64383"
-                },
-                {
-                    "name": "mrthumpz",
-                    "homepage": "https://www.drupal.org/user/266351"
-                }
-            ],
-            "description": "Allows additional permissions to be created and managed through an administration form.",
-            "homepage": "http://drupal.org/project/config_perms",
-            "keywords": [
-                "Drupal"
-            ],
-            "support": {
-                "source": "http://cgit.drupalcode.org/config_perms",
-                "issues": "http://drupal.org/project/issues/config_perms"
-            }
-        },
-        {
             "name": "drupal/config_split",
             "version": "1.4.0",
             "source": {
@@ -2414,99 +2347,6 @@
             }
         },
         {
-            "name": "drupal/ctools",
-            "version": "3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/ctools",
-                "reference": "8.x-3.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ctools-8.x-3.0.zip",
-                "reference": "8.x-3.0",
-                "shasum": "302e869ecd1e59fe55663673999fee2ccac5daa8"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-3.x": "3.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-3.0",
-                    "datestamp": "1493401742",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Kris Vanderwater (EclipseGc)",
-                    "homepage": "https://www.drupal.org/u/eclipsegc",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Jakob Perry (japerry)",
-                    "homepage": "https://www.drupal.org/u/japerry",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Tim Plunkett (tim.plunkett)",
-                    "homepage": "https://www.drupal.org/u/timplunkett",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "James Gilliland (neclimdul)",
-                    "homepage": "https://www.drupal.org/u/neclimdul",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "Daniel Wehner (dawehner)",
-                    "homepage": "https://www.drupal.org/u/dawehner",
-                    "role": "Maintainer"
-                },
-                {
-                    "name": "joelpittet",
-                    "homepage": "https://www.drupal.org/user/160302"
-                },
-                {
-                    "name": "merlinofchaos",
-                    "homepage": "https://www.drupal.org/user/26979"
-                },
-                {
-                    "name": "neclimdul",
-                    "homepage": "https://www.drupal.org/user/48673"
-                },
-                {
-                    "name": "sdboyer",
-                    "homepage": "https://www.drupal.org/user/146719"
-                },
-                {
-                    "name": "sun",
-                    "homepage": "https://www.drupal.org/user/54136"
-                },
-                {
-                    "name": "tim.plunkett",
-                    "homepage": "https://www.drupal.org/user/241634"
-                }
-            ],
-            "description": "Provides a number of utility and helper APIs for Drupal developers and site builders.",
-            "homepage": "https://www.drupal.org/project/ctools",
-            "support": {
-                "source": "http://cgit.drupalcode.org/ctools",
-                "issues": "https://www.drupal.org/project/issues/ctools"
-            }
-        },
-        {
             "name": "drupal/devel",
             "version": "1.2.0",
             "source": {
@@ -2833,11 +2673,6 @@
             }
         },
         {
-            "name": "drupal/registration_role",
-            "version": "1.0.0-beta1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/registration_role",
             "name": "drupal/views_data_export",
             "version": "1.0.0-beta1",
             "source": {
@@ -2847,12 +2682,6 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/registration_role-8.x-1.0-beta1.zip",
-                "reference": "8.x-1.0-beta1",
-                "shasum": "fd0b3d1a4849798a6910de5b604163182c804f16"
-            },
-            "require": {
-                "drupal/core": "~8.0"
                 "url": "https://ftp.drupal.org/files/projects/views_data_export-8.x-1.0-beta1.zip",
                 "reference": "8.x-1.0-beta1",
                 "shasum": "f698c1072169017f28e58a4b026d3f3cff904c96"
@@ -2868,7 +2697,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.0-beta1",
-                    "datestamp": "1499343842",
+                    "datestamp": "1525280285",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
@@ -2877,38 +2706,6 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "karthikeyan-manivasagam",
-                    "homepage": "https://www.drupal.org/user/1494424"
-                },
-                {
-                    "name": "melon",
-                    "homepage": "https://www.drupal.org/user/32875"
-                },
-                {
-                    "name": "mlncn",
-                    "homepage": "https://www.drupal.org/user/64383"
-                },
-                {
-                    "name": "pfournier",
-                    "homepage": "https://www.drupal.org/user/160468"
-                },
-                {
-                    "name": "pignaz",
-                    "homepage": "https://www.drupal.org/user/471908"
-                },
-                {
-                    "name": "yogen.prasad",
-                    "homepage": "https://www.drupal.org/user/2115328"
-                }
-            ],
-            "description": "Automatically assign a role to all new users who register.",
-            "homepage": "https://www.drupal.org/project/registration_role",
-            "support": {
-                "source": "http://cgit.drupalcode.org/registration_role"
                 "GPL-2.0+"
             ],
             "authors": [
@@ -8511,7 +8308,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "drupal/registration_role": 10
         "drupal/views_data_export": 10
     },
     "prefer-stable": true,
