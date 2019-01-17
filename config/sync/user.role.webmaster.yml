@@ -1,0 +1,13 @@
+uuid: 67b20284-b65b-4c0b-9fa9-09f194dd17af
+langcode: en
+status: true
+dependencies: {  }
+id: webmaster
+label: webmaster
+weight: 4
+is_admin: false
+permissions:
+  - ' webmaster administering manager and particpant '
+  - 'access content overview'
+  - 'access user profiles'
+  - 'view program adherant'

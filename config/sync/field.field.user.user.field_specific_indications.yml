@@ -1,0 +1,20 @@
+uuid: 12e95f79-5ecb-433d-88d4-fb148e929e97
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_specific_indications
+  module:
+    - user
+id: user.user.field_specific_indications
+field_name: field_specific_indications
+entity_type: user
+bundle: user
+label: 'Specific indications'
+description: 'Spécify diet, disability ...'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

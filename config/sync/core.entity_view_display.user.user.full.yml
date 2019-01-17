@@ -1,0 +1,87 @@
+uuid: fc25b4c7-a8a3-4bf1-a84e-37d090e39d44
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.full
+    - field.field.user.user.field_city
+    - field.field.user.user.field_country
+    - field.field.user.user.field_first_name
+    - field.field.user.user.field_last_name
+    - field.field.user.user.field_organization_company
+    - field.field.user.user.field_specific_indications
+    - field.field.user.user.field_web_site
+    - field.field.user.user.user_picture
+  module:
+    - link
+    - user
+_core:
+  default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
+id: user.user.full
+targetEntityType: user
+bundle: user
+mode: full
+content:
+  field_city:
+    type: string
+    weight: 3
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_country:
+    type: string
+    weight: 4
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_first_name:
+    type: string
+    weight: 0
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_last_name:
+    type: string
+    weight: 1
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_organization_company:
+    type: string
+    weight: 2
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_specific_indications:
+    type: string
+    weight: 6
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_web_site:
+    type: link
+    weight: 5
+    region: content
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+hidden:
+  member_for: true
+  user_picture: true

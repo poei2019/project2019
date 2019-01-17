@@ -1,9 +1,16 @@
 uuid: 9d6e3317-2552-4506-977f-1ac31b160c6e
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.user.compact
+    - field.field.user.user.field_city
+    - field.field.user.user.field_country
+    - field.field.user.user.field_first_name
+    - field.field.user.user.field_last_name
+    - field.field.user.user.field_organization_company
+    - field.field.user.user.field_specific_indications
+    - field.field.user.user.field_web_site
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -32,4 +39,11 @@ content:
     third_party_settings: {  }
     label: hidden
 hidden:
+  field_city: true
+  field_country: true
+  field_first_name: true
+  field_last_name: true
+  field_organization_company: true
+  field_specific_indications: true
+  field_web_site: true
   member_for: true

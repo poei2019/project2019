@@ -3,12 +3,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
+    - field.field.node.page.field_texte
     - node.type.page
   module:
     - field_layout
     - layout_discovery
     - text
+    - entity_reference_revisions
     - user
 third_party_settings:
   field_layout:
@@ -21,13 +22,15 @@ targetEntityType: node
 bundle: page
 mode: default
 content:
-  body:
-    label: hidden
-    type: text_default
-    weight: 100
-    region: content
-    settings: {  }
+  field_texte:
+    type: entity_reference_revisions_entity_view
+    weight: 102
+    label: above
+    settings:
+      view_mode: default
+      link: ''
     third_party_settings: {  }
+    region: content
   links:
     weight: 101
     region: content

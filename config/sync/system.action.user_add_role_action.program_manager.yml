@@ -1,0 +1,14 @@
+uuid: eb5dd35d-de38-4f5f-8f97-e32c2a17718e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.program_manager
+  module:
+    - user
+id: user_add_role_action.program_manager
+label: 'Add the program manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: program_manager

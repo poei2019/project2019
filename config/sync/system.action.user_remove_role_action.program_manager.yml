@@ -1,0 +1,14 @@
+uuid: 45c488f4-472d-4911-8d6e-5210e02eae03
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.program_manager
+  module:
+    - user
+id: user_remove_role_action.program_manager
+label: 'Remove the program manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: program_manager

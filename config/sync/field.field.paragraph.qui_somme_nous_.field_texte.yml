@@ -1,0 +1,21 @@
+uuid: f2eb3068-048c-4432-9ebd-5275fe957f5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texte
+    - paragraphs.paragraphs_type.qui_somme_nous_
+  module:
+    - text
+id: paragraph.qui_somme_nous_.field_texte
+field_name: field_texte
+entity_type: paragraph
+bundle: qui_somme_nous_
+label: Texte
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

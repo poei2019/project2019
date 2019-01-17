@@ -3,12 +3,19 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.user.user.field_city
+    - field.field.user.user.field_country
+    - field.field.user.user.field_first_name
+    - field.field.user.user.field_last_name
+    - field.field.user.user.field_organization_company
+    - field.field.user.user.field_specific_indications
+    - field.field.user.user.field_web_site
     - field.field.user.user.user_picture
-    - image.style.thumbnail
   module:
     - field_layout
     - image
     - layout_discovery
+    - link
     - user
 third_party_settings:
   field_layout:
@@ -21,16 +28,66 @@ targetEntityType: user
 bundle: user
 mode: default
 content:
-  member_for:
+  field_city:
+    type: string
+    weight: 4
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_country:
+    type: string
     weight: 5
     region: content
-  user_picture:
-    type: image
-    weight: 0
-    region: content
+    label: inline
     settings:
-      image_style: thumbnail
-      image_link: content
+      link_to_entity: false
     third_party_settings: {  }
-    label: hidden
-hidden: {  }
+  field_first_name:
+    weight: 1
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_last_name:
+    weight: 2
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_organization_company:
+    weight: 3
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_specific_indications:
+    type: string
+    weight: 7
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  field_web_site:
+    type: link
+    weight: 6
+    region: content
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+hidden:
+  member_for: true
+  user_picture: true

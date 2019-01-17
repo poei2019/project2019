@@ -1,0 +1,10 @@
+uuid: b535627e-6f2a-48d8-ae81-8158e47805c6
+langcode: en
+status: true
+dependencies: {  }
+id: participant
+label: participant
+weight: 2
+is_admin: false
+permissions:
+  - 'view account users'
