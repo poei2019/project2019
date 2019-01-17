@@ -12,6 +12,7 @@ module:
   config_filter: 0
   config_split: 0
   contextual: 0
+  csv_serialization: 0
   datetime: 0
   dynamic_page_cache: 0
   editor: 0
@@ -32,7 +33,9 @@ module:
   quickedit: 0
   radix_layouts: 0
   rdf: 0
+  rest: 0
   search: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0
@@ -41,6 +44,7 @@ module:
   toolbar: 0
   tour: 0
   user: 0
+  views_data_export: 0
   webform: 0
   webform_node: 0
   webform_ui: 0
