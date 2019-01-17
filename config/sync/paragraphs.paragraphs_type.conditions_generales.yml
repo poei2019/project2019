@@ -1,0 +1,9 @@
+uuid: 456569b7-b8c3-401b-be3d-d302388161ef
+langcode: en
+status: true
+dependencies: {  }
+id: conditions_generales
+label: 'conditions generales'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

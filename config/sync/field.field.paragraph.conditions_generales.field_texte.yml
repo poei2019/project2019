@@ -1,0 +1,21 @@
+uuid: 08267819-2ff0-4cb9-bd6e-6b5b672c6098
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texte
+    - paragraphs.paragraphs_type.conditions_generales
+  module:
+    - text
+id: paragraph.conditions_generales.field_texte
+field_name: field_texte
+entity_type: paragraph
+bundle: conditions_generales
+label: Texte
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -10,6 +10,7 @@ module:
   comment: 0
   config: 0
   config_filter: 0
+  config_perms: 0
   config_split: 0
   contextual: 0
   csv_serialization: 0
@@ -33,6 +34,7 @@ module:
   quickedit: 0
   radix_layouts: 0
   rdf: 0
+  registration_role: 0
   rest: 0
   search: 0
   serialization: 0
