@@ -16,6 +16,7 @@ module:
   contact: 0
   content_moderation: 0
   contextual: 0
+  csv_serialization: 0
   datetime: 0
   dynamic_page_cache: 0
   editor: 0
@@ -37,7 +38,9 @@ module:
   radix_layouts: 0
   rdf: 0
   registration_role: 0
+  rest: 0
   search: 0
+  serialization: 0
   shortcut: 0
   system: 0
   taxonomy: 0
@@ -45,6 +48,7 @@ module:
   toolbar: 0
   tour: 0
   user: 0
+  views_data_export: 0
   webform: 0
   workflows: 0
   menu_link_content: 1
