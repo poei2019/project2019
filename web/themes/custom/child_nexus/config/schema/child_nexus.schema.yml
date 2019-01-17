@@ -1,0 +1,5 @@
+# Required to validate default theme settings.
+
+child_nexus.settings:
+  type: theme_settings
+  label: 'Child Nexus settings'

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d1e2b952a177a0bd1e3855f2e577b635",
+    "content-hash": "4280b66e297e62a5caee52a941e2aa59",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2438,6 +2438,60 @@
             }
         },
         {
+            "name": "drupal/maillog",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/maillog",
+                "reference": "14fd24cd89e299ad271608cd52706c60b753c26d"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1470431939",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "DamienMcKenna",
+                    "homepage": "https://www.drupal.org/user/108450"
+                },
+                {
+                    "name": "miro_dietiker",
+                    "homepage": "https://www.drupal.org/user/227761"
+                },
+                {
+                    "name": "pluess",
+                    "homepage": "https://www.drupal.org/user/84659"
+                }
+            ],
+            "description": "Utility to log all Mails for debugging purposes. It is possible to suppress mail delivery for e.g. dev or staging systems.",
+            "homepage": "https://www.drupal.org/project/maillog",
+            "support": {
+                "source": "http://cgit.drupalcode.org/maillog"
+            },
+            "time": "2016-08-05 21:18:07"
+        },
+        {
             "name": "drupal/module_filter",
             "version": "3.1.0",
             "source": {
@@ -2490,6 +2544,69 @@
             "homepage": "https://www.drupal.org/project/module_filter",
             "support": {
                 "source": "http://cgit.drupalcode.org/module_filter"
+            }
+        },
+        {
+            "name": "drupal/nexus",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/nexus",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/nexus-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "15706a504b734051bbf061ff05a25d3e732d1f5a"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1528444984",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Karmen",
+                    "homepage": "https://www.drupal.org/user/2267652"
+                },
+                {
+                    "name": "devsaran",
+                    "homepage": "https://www.drupal.org/user/1031208"
+                },
+                {
+                    "name": "dipakmdhrm",
+                    "homepage": "https://www.drupal.org/user/1687410"
+                },
+                {
+                    "name": "mheinke",
+                    "homepage": "https://www.drupal.org/user/615306"
+                },
+                {
+                    "name": "nesta_",
+                    "homepage": "https://www.drupal.org/user/370767"
+                }
+            ],
+            "description": "Nexus Theme is a premium Drupal 7 theme. Developed by <a href=\"http://www.devsaran.com\">Devsaran.com</a>.",
+            "homepage": "https://www.drupal.org/project/nexus",
+            "support": {
+                "source": "http://cgit.drupalcode.org/nexus"
             }
         },
         {
@@ -8133,7 +8250,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/maillog": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

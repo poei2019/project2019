@@ -1,0 +1,22 @@
+uuid: 3bc274d2-888a-4c91-9cb1-bc937da973c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - stark
+_core:
+  default_config_hash: NQr0oD4xpdVUQYKiNIOzCtjpyeCQYCgNi1a4on8lyC0
+id: stark_breadcrumbs
+theme: stark
+region: highlighted
+weight: 50
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

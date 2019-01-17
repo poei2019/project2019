@@ -1,0 +1,24 @@
+uuid: e07f132b-3f66-4f0a-8780-dee8569c7398
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - child_nexus
+id: useraccountmenu
+theme: child_nexus
+region: preface_third
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

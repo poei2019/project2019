@@ -1,0 +1,26 @@
+#main-menu li a {
+	font-size: 18pt;
+}
+
+#preface-area {
+
+    background: none repeat scroll 0 0 #ED564B;
+    border-bottom: 5px solid #F96B61;
+    border-top: 5px solid #F96B61;
+    padding: 0;
+	
+
+}
+
+.my_top_menu ul li{
+	float: left;
+}
+
+.my_top_menu ul{
+	list-style-type: none;
+	float:right;
+}
+
+.my_top_menu a{
+	color: #fff
+}

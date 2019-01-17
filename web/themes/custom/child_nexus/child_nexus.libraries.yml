@@ -1,0 +1,44 @@
+
+global-css:
+  css:
+    theme:
+      assets/css/bootstrap.min.css: {}
+      assets/css/slicknav.min.css: {}
+      assets/css/flexslider.css: {}
+      assets/css/style.css: {}
+
+
+global-js:
+  js:
+    assets/js/bootstrap.min.js : {}
+    assets/js/superfish.js : {}
+    assets/js/jquery.slicknav.min.js : {}
+    assets/js/custom.js : {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+
+jquery-ui-tabs:
+  css:
+    layout:
+      layouts/jquery-ui-tabs/ui-tabs.css: {}
+  js:
+    layouts/jquery-ui-tabs/jquery-ui-tabs.js: {}
+  dependencies:
+    - core/jquery.ui.tabs
+
+child_nexus:
+  version: VERSION
+  css:
+    theme:
+      css/child_nexus.css: {}
+  js:
+    js/child_nexus.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+
+slider-js:
+  js:
+    assets/js/jquery.flexslider.js : {}
+    assets/js/slide.js : {}

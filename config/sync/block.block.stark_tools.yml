@@ -1,0 +1,26 @@
+uuid: f6b3b7a2-b1dc-471b-916f-6f4cf58e3415
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - stark
+_core:
+  default_config_hash: 0YfrEJk6cHP9tEHKCb3K27S3D5lROTNmMGgqeSt-cWE
+id: stark_tools
+theme: stark
+region: sidebar_first
+weight: 30
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

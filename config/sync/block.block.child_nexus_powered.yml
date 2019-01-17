@@ -1,0 +1,22 @@
+uuid: f84d2560-4c9c-4437-ade5-f948503a6d2b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - child_nexus
+_core:
+  default_config_hash: SMUuzyh4jfOTzVp6oLnL4EqKOge6WO7uPb48cAiMVEw
+id: child_nexus_powered
+theme: child_nexus
+region: footer_second
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

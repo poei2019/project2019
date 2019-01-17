@@ -1,0 +1,22 @@
+uuid: 2523743b-17f2-45c0-b423-d6403b0f8e0b
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - child_nexus
+_core:
+  default_config_hash: FZbFqmLkCpYvHCoIsBjL-I6KMDgWsu_pR-ZxCwISjwo
+id: child_nexus_breadcrumbs
+theme: child_nexus
+region: highlighted
+weight: 50
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

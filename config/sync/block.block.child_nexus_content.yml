@@ -1,0 +1,22 @@
+uuid: 1e908ba7-2faf-4acb-9c0d-b532651b9559
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - child_nexus
+_core:
+  default_config_hash: x_SnT-XmfoZ6HlFvtYxVvv4cdCkXRCLyQOwsnRraiQk
+id: child_nexus_content
+theme: child_nexus
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
