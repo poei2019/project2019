@@ -1,0 +1,26 @@
+uuid: e3900ef0-1f5c-42d8-ae3d-b3305d533959
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - nexus
+_core:
+  default_config_hash: 5usur55fAPabYWfM45tzAMcOLUZ4fr8Rf_bVHfBwXYo
+id: nexus_main_navigation
+theme: nexus
+region: main_navigation
+weight: 10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

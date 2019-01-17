@@ -1,0 +1,25 @@
+uuid: d6c6733e-fb15-4b77-876a-9ad275d43b8e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - child_nexus
+_core:
+  default_config_hash: V4QuG4pqYsYmwpaci80MKOfqxVC3nm7JZuA6BB92jKc
+id: child_nexus_site_branding
+theme: child_nexus
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

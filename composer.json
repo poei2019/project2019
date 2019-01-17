@@ -27,6 +27,7 @@
         "drupal/devel": "^1.2",
         "drupal/maillog": "1.x-dev",
         "drupal/module_filter": "^3.1",
+        "drupal/nexus": "^1.4",
         "drupal/paragraphs": "^1.5",
         "drupal/radix_layouts": "^4.0",
         "drupal/registration_role": "^1.0@beta",

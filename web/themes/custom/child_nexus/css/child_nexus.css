@@ -1,0 +1,41 @@
+#main-menu li a {
+	font-size: 16pt;
+}
+
+#preface-area {
+
+    background: none repeat scroll 0 0 #ED564B;
+    border-bottom: 5px solid #F96B61;
+    border-top: 5px solid #F96B61;
+    padding: 0;
+	
+
+}
+
+.my_top_menu ul{
+	list-style-type: none;
+	float: right;
+	margin: 0;
+}
+
+.my_top_menu ul li{
+	float: left;
+	padding: 5px 10px 5px 10px;
+}
+
+.my_top_menu a{
+	color: #fff
+}
+
+.webform-submission-form .adhes_textarea {
+	border: solid 4px red;
+}
+
+.form-item label {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.form_adhes {
+	padding: 50px;
+}

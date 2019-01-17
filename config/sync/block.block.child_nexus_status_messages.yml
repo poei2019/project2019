@@ -1,0 +1,22 @@
+uuid: d6bcb882-8de5-447c-aeaf-e962ff1f7df6
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - child_nexus
+_core:
+  default_config_hash: 4OWtUMqcBNAAVe7zMNeu5MYLN03aTcW_AJkeegVMxMU
+id: child_nexus_status_messages
+theme: child_nexus
+region: highlighted
+weight: 60
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

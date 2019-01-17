@@ -1,0 +1,20 @@
+uuid: 6486901e-f999-4a36-b08c-7b5c0ee9b641
+langcode: en
+status: true
+dependencies:
+  theme:
+    - child_nexus
+_core:
+  default_config_hash: XG6HkUacXMiRb4kVHoerMwmD_ACK92x6JaoMnLMGOMo
+id: child_nexus_page_title
+theme: child_nexus
+region: content_top
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

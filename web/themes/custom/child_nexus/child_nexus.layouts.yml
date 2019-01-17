@@ -1,0 +1,17 @@
+layout_jquery_ui_tabs:
+  label: 'jQuery UI Tabs'
+  path: layouts/jquery-ui-tabs
+  template: jquery--ui--tabs
+  library: child_nexus/jquery-ui-tabs
+  category: 'child_nexus'
+  icon: jqueryui.png
+  default_region: first_tab
+  regions:
+    first_tab:
+      label: First tab
+    second_tab:
+      label: Second tab
+    third_tab:
+      label: Third tab
+    fourth_tab:
+      label: Fourth tab
