@@ -1,0 +1,22 @@
+uuid: eb33186f-aba7-4688-be4e-725ebaecc182
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.conditions_generales.field_texte
+    - paragraphs.paragraphs_type.conditions_generales
+  module:
+    - text
+id: paragraph.conditions_generales.default
+targetEntityType: paragraph
+bundle: conditions_generales
+mode: default
+content:
+  field_texte:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

@@ -1,0 +1,14 @@
+uuid: 35a144e8-55f3-4f11-a59e-773a458ae943
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.participant
+  module:
+    - user
+id: user_remove_role_action.participant
+label: 'Remove the participant role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: participant

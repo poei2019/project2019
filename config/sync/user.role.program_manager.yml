@@ -1,0 +1,13 @@
+uuid: 4caac3c9-4895-4448-891b-055e400be752
+langcode: en
+status: true
+dependencies: {  }
+id: program_manager
+label: 'program manager'
+weight: 3
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'edit program adherant'
+  - 'view program adherant'
