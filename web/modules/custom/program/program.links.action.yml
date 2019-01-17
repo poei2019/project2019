@@ -1,5 +1,0 @@
-entity.program.add_form:
-  route_name: entity.program.add_form
-  title: 'Add Program'
-  appears_on:
-    - entity.program.collection
