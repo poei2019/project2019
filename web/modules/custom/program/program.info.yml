@@ -1,6 +1,0 @@
-name: 'Program'
-type: module
-description: 'Program managing.'
-core: 8.x
-version: 8.x-1.x
-package: 'Training'
