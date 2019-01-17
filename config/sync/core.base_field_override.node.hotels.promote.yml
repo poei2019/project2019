@@ -1,0 +1,22 @@
+uuid: 035265f8-0ea1-448a-aa0b-c8951a4416a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.hotels
+id: node.hotels.promote
+field_name: promote
+entity_type: node
+bundle: hotels
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

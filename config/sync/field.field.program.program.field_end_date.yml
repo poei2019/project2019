@@ -1,0 +1,23 @@
+uuid: 46d1eb6f-ba1c-4903-aee5-795f38f43137
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.program.field_end_date
+  module:
+    - datetime
+    - program
+_core:
+  default_config_hash: RMvA5v_JMMPx2GWGCzrI38LIjeZnc-3qbD2KEp9aD0o
+id: program.program.field_end_date
+field_name: field_end_date
+entity_type: program
+bundle: program
+label: 'End date'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

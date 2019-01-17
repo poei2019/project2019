@@ -1,0 +1,22 @@
+uuid: b3b2461b-0127-4a8e-8f31-6637ca071c19
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.program.field_program_manager
+  module:
+    - program
+_core:
+  default_config_hash: zdoSr326M0TKGfdCs_bUPUBAqR8-hI27I0N7HFlkqdQ
+id: program.program.field_program_manager
+field_name: field_program_manager
+entity_type: program
+bundle: program
+label: Manager
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

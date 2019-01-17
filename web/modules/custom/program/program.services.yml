@@ -1,0 +1,6 @@
+services:
+  program.event_subscriber:
+    class: \Drupal\program\EventSubscriber\ProgramEventSubscriber
+    arguments: ['@current_user','@current_route_match','@database','@datetime.time']
+    tags:
+      - {name: event_subscriber}

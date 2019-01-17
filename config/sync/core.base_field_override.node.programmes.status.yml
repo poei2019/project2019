@@ -1,0 +1,22 @@
+uuid: 38aac08d-a696-4931-8418-f3f2462393ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.programmes
+id: node.programmes.status
+field_name: status
+entity_type: node
+bundle: programmes
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

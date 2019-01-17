@@ -1,0 +1,21 @@
+uuid: bc355bda-6ff3-4b7c-973d-0a35b14c93a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_description
+    - node.type.programmes
+  module:
+    - text
+id: node.programmes.field_description
+field_name: field_description
+entity_type: node
+bundle: programmes
+label: Description
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

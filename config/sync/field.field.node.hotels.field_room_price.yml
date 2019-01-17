@@ -1,0 +1,23 @@
+uuid: 19e61758-fcb6-44a5-bbbe-40ae42711874
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_room_price
+    - node.type.hotels
+id: node.hotels.field_room_price
+field_name: field_room_price
+entity_type: node
+bundle: hotels
+label: 'Room price'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: €
+  suffix: /night
+field_type: float
