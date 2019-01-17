@@ -1,7 +1,0 @@
-uuid: 2cc5b786-0c06-40b2-9aa0-74908183dfae
-langcode: en
-status: true
-dependencies: {  }
-id: add_new_program
-label: 'Add new program'
-path: /node/add/
