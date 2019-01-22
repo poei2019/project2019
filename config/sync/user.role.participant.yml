@@ -10,4 +10,6 @@ permissions:
   - 'use exclude node title'
   - 'add program entities'
   - 'view account users'
+  - 'view webform submissions own node'
   - 'view published program entities'
+

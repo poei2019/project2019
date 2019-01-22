@@ -16,3 +16,4 @@ permissions:
   - 'subscribe to newsletters'
   - 'use exclude node title'
   - 'use text format restricted_html'
+  - 'view webform submissions own node'
