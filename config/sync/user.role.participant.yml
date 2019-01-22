@@ -8,4 +8,6 @@ weight: 2
 is_admin: false
 permissions:
   - 'use exclude node title'
+  - 'add program entities'
   - 'view account users'
+  - 'view published program entities'

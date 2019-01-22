@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "content-hash": "7da333f7e1c72d5ce2b445688243617b",
+
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -6730,7 +6731,7 @@
                 "testing",
                 "web"
             ],
-            "time": "2018-06-24 20:08:51"
+            "time": "2018-06-24T20:08:51+00:00"
         },
         {
             "name": "behat/mink-browserkit-driver",
@@ -6902,7 +6903,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2018-10-10 12:39:06"
+            "time": "2018-10-10T12:39:06+00:00"
         },
         {
             "name": "doctrine/instantiator",

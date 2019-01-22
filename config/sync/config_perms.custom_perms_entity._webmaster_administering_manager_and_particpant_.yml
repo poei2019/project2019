@@ -1,7 +1,0 @@
-uuid: 4e5dbc0f-edac-4566-86db-e3d917bddd51
-langcode: en
-status: true
-dependencies: {  }
-id: _webmaster_administering_manager_and_particpant_
-label: ' webmaster administering manager and particpant '
-path: /admin/people

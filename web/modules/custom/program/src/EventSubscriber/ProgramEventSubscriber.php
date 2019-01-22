@@ -19,7 +19,6 @@ class ProgramEventSubscriber implements EventSubscriberInterface {
   protected $database;
 
 
-
   public function __construct(AccountProxyInterface $current_user,
                               CurrentRouteMatch $current_route_match,
                               Connection $database,
@@ -41,22 +40,35 @@ class ProgramEventSubscriber implements EventSubscriberInterface {
   }
 
   public function onRequest(Event $event) {
-    if($this->current_route_match ->getRouteName() == 'entity.program.canonical'){
-    drupal_set_message(t('On Request @name', [
-      '@name' => $this->current_user->getAccountName(),
-    ]));
 
-    $uid = $this->current_user->id();
-    $pr_id = $this->current_route_match->getParameter('program')->id();
+    if ($this->current_route_match->getRouteName() == 'entity.program.canonical') {
+
+      drupal_set_message(t('On Request @name', [
+        '@name' => $this->current_user->getAccountName(),
+      ]));
+
+      $uid = $this->current_user->id();
+      $pr_id = $this->current_route_match->getParameter('program')->id();
 
 
-    $this->database->insert('program_history')
-      ->fields([
-        'pid' => $pr_id,
-        'uid' => $uid,
-      ])->execute();
+      $this->database->insert('program_history')
+                      ->fields([
+                        'pid' => $pr_id,
+                        'uid' => $uid,
+                      ])->execute();
 
     }
+
+    if ($this->current_route_match->getRouteName() == 'entity.program.delete_form') {
+
+      $pr_id = $this->current_route_match->getParameter('program')->id();
+
+      $this->database->delete('program_history')
+                      ->condition('pid', $pr_id)
+                      ->execute();
+
+    }
+
   }
-  
+
 }
