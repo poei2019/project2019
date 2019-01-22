@@ -10,4 +10,5 @@ permissions:
   - 'access toolbar'
   - 'access user profiles'
   - 'edit program adherant'
+  - 'use exclude node title'
   - 'view program adherant'

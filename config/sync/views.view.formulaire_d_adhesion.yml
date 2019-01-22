@@ -1,15 +1,21 @@
-uuid: 534a72cb-ab7f-4d83-96cb-9e49dd84ed30
+uuid: e469ad30-8770-4e0f-b4aa-51296e8af047
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - node.type.webform
     - system.menu.main
+    - user.role.administrator
+    - user.role.authenticated
+    - user.role.participant
+    - user.role.program_manager
+    - user.role.webmaster
   module:
     - node
     - user
-id: mail_participants
-label: 'Mail Participants'
+id: formulaire_d_adhesion
+label: 'Formulaire d''adhésion'
 module: views
 description: ''
 tag: ''
@@ -24,9 +30,14 @@ display:
     position: 0
     display_options:
       access:
-        type: perm
+        type: role
         options:
-          perm: 'access content'
+          role:
+            authenticated: authenticated
+            participant: participant
+            program_manager: program_manager
+            webmaster: webmaster
+            administrator: administrator
       cache:
         type: tag
         options: {  }
@@ -68,8 +79,15 @@ display:
             next: ››
       style:
         type: default
+        options:
+          row_class: ''
+          default_row_class: true
+          uses_fields: false
       row:
-        type: fields
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: full
       fields:
         title:
           id: title
@@ -134,117 +152,68 @@ display:
           id: type
           table: node_field_data
           field: type
-          relationship: none
-          group_type: group
-          admin_label: ''
-          operator: in
           value:
             webform: webform
-          group: 1
-          exposed: true
-          expose:
-            use_operator: false
-            operator: type_op
-            identifier: type
-            label: 'Content type'
-            description: null
-            remember: false
-            multiple: false
-            required: false
-            reduce: false
-          is_grouped: false
-          group_info:
-            label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
           entity_type: node
           entity_field: type
           plugin_id: bundle
-        uid:
-          id: uid
-          table: node_field_revision
-          field: uid
+      sorts:
+        created:
+          id: created
+          table: node_field_data
+          field: created
+          order: DESC
+          entity_type: node
+          entity_field: created
+          plugin_id: date
           relationship: none
           group_type: group
           admin_label: ''
-          operator: '='
-          value:
-            min: ''
-            max: ''
-            value: ''
-          group: 1
-          exposed: true
+          exposed: false
           expose:
-            use_operator: false
-            operator: uid_op
-            identifier: uid
-            label: 'Authored by'
-            description: null
-            remember: false
-            multiple: false
-            required: false
-            min_placeholder: null
-            max_placeholder: null
-            placeholder: null
-          is_grouped: false
-          group_info:
             label: ''
-            description: ''
-            identifier: ''
-            optional: true
-            widget: select
-            multiple: false
-            remember: false
-            default_group: All
-            default_group_multiple: {  }
-            group_items: {  }
-          entity_type: node
-          entity_field: uid
-          plugin_id: numeric
-      sorts: {  }
-      title: 'Mail Participants'
+          granularity: second
+      title: 'Formulaire d''adhésion'
       header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      css_class: form_adhess
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags: {  }
   page_1:
     display_plugin: page
     id: page_1
-    display_title: Page
+    display_title: 'Formulaire d''adhésion'
     position: 1
     display_options:
       display_extenders: {  }
-      path: mail-participants
+      path: formulaire-d-adh-sion
       menu:
         type: normal
-        title: 'Mail Participants'
+        title: 'Formulaire d''adhésion'
+        description: ''
+        expanded: false
+        parent: ''
+        weight: 0
+        context: '0'
         menu_name: main
+      display_description: ''
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
-        - url
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags: {  }

@@ -19,4 +19,6 @@ permissions:
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
+  - 'subscribe to newsletters'
+  - 'use exclude node title'
   - 'use text format basic_html'
