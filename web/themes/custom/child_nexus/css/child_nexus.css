@@ -39,3 +39,8 @@
 .form_adhes {
 	padding: 50px;
 }
+
+.form-adhess {
+	padding: 30px;
+	border: solid 1px rgba(0,0,0,0.4);
+}

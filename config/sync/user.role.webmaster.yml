@@ -10,6 +10,7 @@ permissions:
   - ' webmaster administering manager and particpant '
   - 'access content overview'
   - 'access user profiles'
+  - 'use exclude node title'
   - 'access webprofiler'
   - 'add program entities'
   - 'administer program entities'

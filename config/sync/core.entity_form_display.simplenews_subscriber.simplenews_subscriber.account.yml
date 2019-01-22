@@ -1,0 +1,31 @@
+uuid: afae2010-1501-4607-97a6-f08acd3cf105
+langcode: und
+status: true
+dependencies:
+  config:
+    - core.entity_form_mode.simplenews_subscriber.account
+    - field.field.simplenews_subscriber.simplenews_subscriber.subscriptions
+  module:
+    - field_layout
+    - layout_discovery
+    - simplenews
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+_core:
+  default_config_hash: wsSwexy6Zc4ZKCF3dNzcg9vwvZeAsOKhe-WpASvCLIs
+id: simplenews_subscriber.simplenews_subscriber.account
+targetEntityType: simplenews_subscriber
+bundle: simplenews_subscriber
+mode: account
+content:
+  subscriptions:
+    type: simplenews_subscription_select
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  mail: true
+  uid: true
