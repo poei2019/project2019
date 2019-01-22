@@ -12,4 +12,3 @@ permissions:
   - 'view account users'
   - 'view webform submissions own node'
   - 'view published program entities'
-

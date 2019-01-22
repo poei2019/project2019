@@ -1,17 +1,15 @@
-uuid: c45b7b98-3777-46a8-869f-44046896a632
+uuid: 9dc3d99f-84eb-4ae2-ac42-9daeb453a9ac
 langcode: en
 status: true
 dependencies:
   module:
-    - program
-_core:
-  default_config_hash: s4NmTRtbiKgLknPMrUh2KM23KH65I7oGsPE4PNjTSzM
-id: program.field_program_manager
-field_name: field_program_manager
-entity_type: program
+    - node
+id: node.field_telephone
+field_name: field_telephone
+entity_type: node
 type: string
 settings:
-  max_length: 100
+  max_length: 20
   is_ascii: false
   case_sensitive: false
 module: core
