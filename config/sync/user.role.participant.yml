@@ -8,3 +8,4 @@ weight: 2
 is_admin: false
 permissions:
   - 'view account users'
+  - 'view webform submissions own node'

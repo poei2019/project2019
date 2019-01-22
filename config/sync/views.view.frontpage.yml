@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - core.entity_view_mode.node.rss
-    - core.entity_view_mode.node.teaser
   module:
     - node
     - user
@@ -170,6 +170,11 @@ display:
           offset: 0
           id: 0
           total_pages: 0
+          tags:
+            previous: '‹ Previous'
+            next: 'Next ›'
+            first: '« First'
+            last: 'Last »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -178,11 +183,6 @@ display:
             items_per_page_options_all_label: '- All -'
             offset: false
             offset_label: Offset
-          tags:
-            previous: '‹ Previous'
-            next: 'Next ›'
-            first: '« First'
-            last: 'Last »'
           quantity: 9
       query:
         type: views_query
@@ -195,7 +195,8 @@ display:
       row:
         type: 'entity:node'
         options:
-          view_mode: teaser
+          relationship: none
+          view_mode: full
       sorts:
         sticky:
           admin_label: ''
@@ -291,6 +292,20 @@ display:
     display_options:
       path: node
       display_extenders: {  }
+      menu:
+        type: none
+        title: ''
+        description: ''
+        expanded: true
+        parent: ''
+        weight: 0
+        context: '0'
+        menu_name: main
+      access:
+        type: none
+        options: {  }
+      defaults:
+        access: false
     display_plugin: page
     display_title: Page
     id: page_1
@@ -300,6 +315,5 @@ display:
         - 'languages:language_interface'
         - url.query_args
         - 'user.node_grants:view'
-        - user.permissions
       max-age: -1
       tags: {  }
