@@ -1,0 +1,25 @@
+uuid: d5f7e909-98c9-4add-8ccd-d4cf9168afd4
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.program_hotels
+  module:
+    - views
+  theme:
+    - child_nexus
+id: views_block__program_hotels_block_1
+theme: child_nexus
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:program_hotels-block_1'
+settings:
+  id: 'views_block:program_hotels-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

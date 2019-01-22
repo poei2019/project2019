@@ -18,28 +18,28 @@ class ProgramViewsData extends EntityViewsData {
     $data['program_history']['table']['provider']= 'program';
     $data['program_history']['table']['base'] = [
       'field' => 'id',
-      'title'=>t('program history ID'),
-      'weight'=> -100,
+      'title' => t('program history ID'),
+      'weight' => -100,
     ];
     $data['program_history']['uid']= [
-      'title'=>t('user id'),
-      'help'=> t('Author program Id'),
-      'field'=>['id'=>'numeric'],
-      'relationship'=>[
-        'base'=>'users_field_data',
-        'base field'=>'uid',
-        'id'=>'standard',
-        'label' => t('program user id'),
+      'title' => t('user id'),
+      'help' => t('Author program Id'),
+      'field' => ['id' => 'numeric'],
+      'relationship' => [
+        'base' => 'users_field_data',
+        'base field' => 'uid',
+        'id' => 'standard',
+        'label' => t('Relate program history UID -> User ID'),
       ],
     ];
     $data['program_history']['pid']= [
-      'title'=>t('program Id'),
-      'field'=>['id'=>'numeric'],
-      'relationship'=>[
-        'base'=>'program_field_data',
+      'title' => t('program Id'),
+      'field' => ['id'=>'numeric'],
+      'relationship' => [
+        'base' => 'program_field_data',
         'base field' => 'id',
-        'id'=>'standard',
-        'label'=> t('Program id'),
+        'id' => 'standard',
+        'label' => t('Relate program history program_id -> Program ID'),
       ],
       'primary key' => ['id'],
     ];
@@ -50,5 +50,5 @@ class ProgramViewsData extends EntityViewsData {
 
     return $data;
   }
-  
+
 }

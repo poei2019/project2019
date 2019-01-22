@@ -1,0 +1,19 @@
+uuid: 8fb6999d-e3bc-4f6e-b5e7-04a3aa7bc1d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone_number
+    - node.type.hotels
+id: node.hotels.field_phone_number
+field_name: field_phone_number
+entity_type: node
+bundle: hotels
+label: 'Phone number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

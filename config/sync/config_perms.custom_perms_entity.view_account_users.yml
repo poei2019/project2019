@@ -1,7 +1,0 @@
-uuid: 167f50e4-d3ea-41bd-b98d-dfa494a3a5c5
-langcode: en
-status: true
-dependencies: {  }
-id: view_account_users
-label: 'view account users'
-path: /admin/people
