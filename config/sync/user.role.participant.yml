@@ -7,4 +7,6 @@ label: participant
 weight: 2
 is_admin: false
 permissions:
+  - 'add program entities'
   - 'view account users'
+  - 'view published program entities'
