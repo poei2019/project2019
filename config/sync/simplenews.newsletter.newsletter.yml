@@ -1,0 +1,17 @@
+uuid: a7ec301b-c60d-4634-b6d4-ec397f843c9c
+langcode: en
+status: true
+dependencies: {  }
+name: 'Newsletter groupe 1'
+id: newsletter
+description: ''
+format: html
+priority: 1
+receipt: true
+from_name: Bienvenue
+subject: '[[simplenews-newsletter:name]] [node:title]'
+from_address: armen@mkrtchian.fr
+hyperlinks: true
+new_account: 'off'
+opt_inout: double
+weight: 0

@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
     "content-hash": "b3c6e5a2d90a79b035a5eca0ec54fa1a",
+
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2562,6 +2563,52 @@
             }
         },
         {
+            "name": "drupal/drush",
+            "version": "6.0.0-rc4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/drush",
+                "reference": "8.x-6.0-rc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/drush-8.x-6.0-rc4.zip",
+                "reference": "8.x-6.0-rc4",
+                "shasum": "b937035f9de947190cc2438decb56483ff7cc1cd"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-6.x": "6.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-6.0-rc4",
+                    "datestamp": "1376806255",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "moshe weitzman",
+                    "homepage": "https://www.drupal.org/user/23"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/drush",
+            "support": {
+                "source": "http://cgit.drupalcode.org/drush"
+            }
+        },
+        {
             "name": "drupal/entity_reference_revisions",
             "version": "1.6.0",
             "source": {
@@ -2617,6 +2664,65 @@
             "homepage": "https://www.drupal.org/project/entity_reference_revisions",
             "support": {
                 "source": "http://cgit.drupalcode.org/entity_reference_revisions"
+            }
+        },
+        {
+            "name": "drupal/exclude_node_title",
+            "version": "1.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/exclude_node_title",
+                "reference": "8.x-1.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/exclude_node_title-8.x-1.0-beta1.zip",
+                "reference": "8.x-1.0-beta1",
+                "shasum": "04b307c90c71285f421f8727d5ba8fd84b3df066"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-beta1",
+                    "datestamp": "1452548339",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "fizk",
+                    "homepage": "https://www.drupal.org/user/473174"
+                },
+                {
+                    "name": "gabrielu",
+                    "homepage": "https://www.drupal.org/user/279352"
+                },
+                {
+                    "name": "id.tarzanych",
+                    "homepage": "https://www.drupal.org/user/2776543"
+                },
+                {
+                    "name": "jordanpagewhite",
+                    "homepage": "https://www.drupal.org/user/3162067"
+                }
+            ],
+            "description": "Excludes a node title from display. It provides a checkbox on node-edit pages for easier exclusion. You can also exclude title display from teaser pages.",
+            "homepage": "https://www.drupal.org/project/exclude_node_title",
+            "support": {
+                "source": "http://cgit.drupalcode.org/exclude_node_title"
             }
         },
         {
@@ -2987,6 +3093,73 @@
             "homepage": "https://www.drupal.org/project/registration_role",
             "support": {
                 "source": "http://cgit.drupalcode.org/registration_role"
+            }
+        },
+        {
+            "name": "drupal/simplenews",
+            "version": "1.0.0-alpha3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/simplenews",
+                "reference": "8.x-1.0-alpha3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/simplenews-8.x-1.0-alpha3.zip",
+                "reference": "8.x-1.0-alpha3",
+                "shasum": "1bf5c204d26ade0e56b15426018bc18d3acb0dab"
+            },
+            "require": {
+                "drupal/core": "*"
+            },
+            "require-dev": {
+                "drupal/monitoring": "*",
+                "drupal/simplenews_scheduler": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0-alpha3",
+                    "datestamp": "1487059683",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "AlexisWilke",
+                    "homepage": "https://www.drupal.org/user/356197"
+                },
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Simon Georges",
+                    "homepage": "https://www.drupal.org/user/172312"
+                },
+                {
+                    "name": "Sutharsan",
+                    "homepage": "https://www.drupal.org/user/73854"
+                },
+                {
+                    "name": "miro_dietiker",
+                    "homepage": "https://www.drupal.org/user/227761"
+                }
+            ],
+            "description": "Send newsletters to subscribed email addresses. For uninstall go to Configuration > Web services > Simplenews > Settings and hit \"Prepare uninstall\".",
+            "homepage": "https://www.drupal.org/project/simplenews",
+            "support": {
+                "source": "http://cgit.drupalcode.org/simplenews"
             }
         },
         {
@@ -6624,7 +6797,7 @@
                 "testing",
                 "web"
             ],
-            "time": "2018-06-24 20:08:51"
+            "time": "2018-06-24T20:08:51+00:00"
         },
         {
             "name": "behat/mink-browserkit-driver",
@@ -6796,7 +6969,7 @@
                 "testing",
                 "webdriver"
             ],
-            "time": "2018-10-10 12:39:06"
+            "time": "2018-10-10T12:39:06+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -8733,8 +8906,11 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/default_content_deploy": 15,
+        "drupal/drush": 5,
+        "drupal/exclude_node_title": 10,
         "drupal/maillog": 20,
         "drupal/registration_role": 10,
+        "drupal/simplenews": 15,
         "drupal/views_data_export": 10
     },
     "prefer-stable": true,

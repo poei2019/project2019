@@ -1,4 +1,4 @@
-send: false
+send: true
 log: true
 verbose: false
 _core:
