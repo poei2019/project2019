@@ -1,7 +1,0 @@
-uuid: 45ef7422-e03c-4ec1-b138-367810013046
-langcode: en
-status: true
-dependencies: {  }
-id: view_program_adherant
-label: 'view program adherant'
-path: admin/people/permissions
