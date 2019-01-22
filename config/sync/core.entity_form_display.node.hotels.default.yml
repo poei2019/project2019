@@ -1,0 +1,80 @@
+uuid: 0d753540-ccb8-4f63-824b-9b672e7b87fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.hotels.field_adresse
+    - field.field.node.hotels.field_description
+    - field.field.node.hotels.field_email
+    - field.field.node.hotels.field_room_price
+    - field.field.node.hotels.field_telephone
+    - field.field.node.hotels.field_title
+    - node.type.hotels
+  module:
+    - field_layout
+    - layout_discovery
+    - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: node.hotels.default
+targetEntityType: node
+bundle: hotels
+mode: default
+content:
+  field_adresse:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_description:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_email:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: email_default
+    region: content
+  field_room_price:
+    weight: 5
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_telephone:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  title: true
+  uid: true

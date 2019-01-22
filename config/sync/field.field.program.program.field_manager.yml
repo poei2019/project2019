@@ -1,0 +1,34 @@
+uuid: 0fd1f796-c71f-4d07-8a41-835ef7aa0f6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.program.field_manager
+  module:
+    - program
+id: program.program.field_manager
+field_name: field_manager
+entity_type: program
+bundle: program
+label: Manager
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: true
+    filter:
+      type: role
+      role:
+        program_manager: program_manager
+        participant: '0'
+        webmaster: '0'
+        administrator: '0'
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

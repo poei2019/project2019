@@ -1,0 +1,19 @@
+uuid: 41e24731-3e4b-4880-9146-55f9f818ef05
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email
+    - node.type.hotels
+id: node.hotels.field_email
+field_name: field_email
+entity_type: node
+bundle: hotels
+label: Email
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email
