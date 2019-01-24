@@ -2,7 +2,7 @@ uuid: db61c282-06e1-42e3-864d-68cc742ea1c3
 langcode: en
 status: true
 dependencies: {  }
-name: 'Newsletter groupe 2'
+name: 'Newsletter Hôtels'
 id: newsletter_groupe_2
 description: ''
 format: plain

@@ -1,0 +1,28 @@
+uuid: e0f549ae-6cbf-4739-bd5b-5b52da05ccf4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.simplenews_subscriber.simplenews_subscriber.subscriptions
+  module:
+    - field_layout
+    - layout_discovery
+    - simplenews
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+id: simplenews_subscriber.simplenews_subscriber.default
+targetEntityType: simplenews_subscriber
+bundle: simplenews_subscriber
+mode: default
+content:
+  subscriptions:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+hidden: {  }
