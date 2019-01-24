@@ -2,7 +2,7 @@ uuid: a7ec301b-c60d-4634-b6d4-ec397f843c9c
 langcode: en
 status: true
 dependencies: {  }
-name: 'Newsletter groupe 1'
+name: 'Newsletter Programs'
 id: newsletter
 description: ''
 format: html

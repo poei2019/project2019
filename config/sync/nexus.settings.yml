@@ -9,8 +9,8 @@ logo:
 favicon:
   use_default: true
   path: ''
-slideshow_display: 1
-show_breadcrumbs: 1
+slideshow_display: 0
+show_breadcrumbs: 0
 slide1_head: 'Sample product'
 slide2_head: 'Sample service'
 slide3_head: 'Contact us'
@@ -22,3 +22,6 @@ slide2_url: node/2
 slide3_url: node/3
 _core:
   default_config_hash: zspC3IWx3gB7P08cyRQxXDFS-z8yLO9-4ziiOPrjkNI
+slide1_image: {  }
+slide2_image: {  }
+slide3_image: {  }

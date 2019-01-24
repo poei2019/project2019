@@ -23,4 +23,10 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_adresse: true
+  field_description: true
+  field_email: true
+  field_room_price: true
+  field_telephone: true
+  field_title: true
