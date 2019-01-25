@@ -1,0 +1,5 @@
+name: 'budget'
+type: module
+description: 'Science Meetup'
+core: 8.x
+package: 'Custom'

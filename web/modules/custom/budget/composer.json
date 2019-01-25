@@ -1,0 +1,14 @@
+{
+  "name": "drupal/budget",
+  "type": "drupal-module",
+  "description": "Science Meetup",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/budget",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/budget",
+    "source": "http://cgit.drupalcode.org/budget"
+  },
+  "require": { }
+}

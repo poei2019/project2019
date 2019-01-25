@@ -41,6 +41,7 @@ class ProgramViewsData extends EntityViewsData {
         'id' => 'standard',
         'label' => t('Relate program history program_id -> Program ID'),
       ],
+
       'primary key' => ['id'],
     ];
 
