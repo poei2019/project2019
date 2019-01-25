@@ -27,6 +27,14 @@ function program_schema(){
         'not null' => TRUE,
         'length' => 10,
       ],
+      'budget' => [
+
+        'type' => 'numeric',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+        'precision' => 15,
+        'scale' => 2,
+      ],
     ],
     'primary key' => ['id'],
   ];

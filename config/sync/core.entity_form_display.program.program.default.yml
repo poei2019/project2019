@@ -1,12 +1,13 @@
-uuid: b5b19fea-f479-40e0-b4c4-abe5a64086d9
+uuid: f9d6644e-a175-4867-a0e5-157ac6477093
 langcode: en
 status: true
 dependencies:
   config:
+    - field.field.program.program.field_adhesion
     - field.field.program.program.field_budget
     - field.field.program.program.field_description
     - field.field.program.program.field_end_date
-    - field.field.program.program.field_manager
+    - field.field.program.program.field_program_manager
     - field.field.program.program.field_start_date
     - field.field.program.program.field_title
   module:
@@ -15,6 +16,7 @@ dependencies:
     - layout_discovery
     - program
     - text
+    - webform
 third_party_settings:
   field_layout:
     id: layout_onecol
@@ -26,15 +28,22 @@ targetEntityType: program
 bundle: program
 mode: default
 content:
+  field_adhesion:
+    weight: 26
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
   field_budget:
-    weight: 4
+    weight: 6
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
     region: content
   field_description:
-    weight: 3
+    weight: 4
     settings:
       rows: 5
       placeholder: ''
@@ -42,19 +51,21 @@ content:
     type: text_textarea
     region: content
   field_end_date:
-    weight: 2
+    weight: 3
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
     region: content
-  field_manager:
+  field_program_manager:
     weight: 5
-    settings: {  }
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
-    type: options_select
+    type: string_textfield
     region: content
   field_start_date:
-    weight: 1
+    weight: 2
     settings: {  }
     third_party_settings: {  }
     type: datetime_default
@@ -67,7 +78,15 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
 hidden:
   field_title: true
   moderation_state: true
-  user_id: true

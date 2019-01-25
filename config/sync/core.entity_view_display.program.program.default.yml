@@ -1,12 +1,13 @@
-uuid: 58e04e53-4cd5-4350-b965-c06748696687
+uuid: f391f418-646d-454c-8b36-6186cb833c96
 langcode: en
 status: true
 dependencies:
   config:
+    - field.field.program.program.field_adhesion
     - field.field.program.program.field_budget
     - field.field.program.program.field_description
     - field.field.program.program.field_end_date
-    - field.field.program.program.field_manager
+    - field.field.program.program.field_program_manager
     - field.field.program.program.field_start_date
     - field.field.program.program.field_title
   module:
@@ -16,6 +17,7 @@ dependencies:
     - program
     - text
     - user
+    - webform
 third_party_settings:
   field_layout:
     id: layout_onecol
@@ -27,6 +29,14 @@ targetEntityType: program
 bundle: program
 mode: default
 content:
+  field_adhesion:
+    weight: 7
+    label: above
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
   field_budget:
     weight: 6
     label: above
@@ -54,13 +64,13 @@ content:
     third_party_settings: {  }
     type: datetime_default
     region: content
-  field_manager:
-    weight: 7
+  field_program_manager:
+    weight: 5
     label: above
     settings:
-      link: true
+      link_to_entity: false
     third_party_settings: {  }
-    type: entity_reference_label
+    type: string
     region: content
   field_start_date:
     weight: 2

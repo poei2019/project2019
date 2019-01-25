@@ -50,11 +50,15 @@ class ProgramEventSubscriber implements EventSubscriberInterface {
       $uid = $this->current_user->id();
       $pr_id = $this->current_route_match->getParameter('program')->id();
 
+      $storage_budget = \Drupal::entityTypeManager()->getStorage('program')->load($pr_id);
+
+      $budget = $storage_budget->field_budget->getString();
 
       $this->database->insert('program_history')
                       ->fields([
                         'pid' => $pr_id,
                         'uid' => $uid,
+                        'budget' => $budget,
                       ])->execute();
 
     }

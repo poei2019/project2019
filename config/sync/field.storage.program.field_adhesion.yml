@@ -1,17 +1,17 @@
-uuid: f3541c5c-b814-4bfb-98ac-54d4aa090564
+uuid: fae27a39-8213-43a9-af6d-7d6378083c0c
 langcode: en
 status: true
 dependencies:
   module:
     - program
-    - user
-id: program.field_manager
-field_name: field_manager
+    - webform
+id: program.field_adhesion
+field_name: field_adhesion
 entity_type: program
-type: entity_reference
+type: webform
 settings:
-  target_type: user
-module: core
+  target_type: webform
+module: webform
 locked: false
 cardinality: 1
 translatable: true

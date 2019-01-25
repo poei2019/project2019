@@ -1,0 +1,36 @@
+uuid: 258e3037-8caf-47c2-ac5e-c32e094ca8d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.program.field_adhesion
+    - webform.webform.contact
+  module:
+    - program
+    - webform
+id: program.program.field_adhesion
+field_name: field_adhesion
+entity_type: program
+bundle: program
+label: adhesion
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: cef88101-1b7f-4942-bb0a-c676a79f7d3a
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  default_data: ''
+  status: open
+  open: ''
+  close: ''
+field_type: webform

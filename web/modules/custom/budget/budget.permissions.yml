@@ -1,0 +1,3 @@
+permission budget:
+  title: 'Permission budget'
+  description: 'Bloc budget access'
