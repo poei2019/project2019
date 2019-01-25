@@ -1,4 +1,4 @@
-uuid: 376eaf4a-5c5b-4820-b66f-8f0e1dbf4285
+uuid: 92d9f134-606f-4585-8237-a071e9720ca1
 langcode: en
 status: true
 dependencies:
@@ -12,7 +12,7 @@ dependencies:
     - program
     - user
 _core:
-  default_config_hash: 4gc5aeComPFmeMopwuD2OVP3wzEjXuw_ZG5EqQK51o0
+  default_config_hash: JrFZjwdf5h6i1B1pGZAOdrw_l40yQ-5yk-9fTQEe1j8
 id: program_registration
 label: 'Program registration'
 module: views

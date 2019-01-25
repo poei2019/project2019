@@ -1,0 +1,26 @@
+uuid: 849dc3d0-02a9-464b-b5fb-07f3dce7dd4b
+langcode: en
+status: true
+dependencies:
+  module:
+    - budget
+    - system
+  theme:
+    - child_nexus
+id: budget
+theme: child_nexus
+region: sidebar_first
+weight: 0
+provider: null
+plugin: budget_block
+settings:
+  id: budget_block
+  label: Budget
+  provider: budget
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: '/program/*'
+    negate: false
+    context_mapping: {  }
