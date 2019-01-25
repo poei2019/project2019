@@ -24,6 +24,6 @@ permissions:
   - 'subscribe to newsletters'
   - 'use exclude node title'
   - 'use text format basic_html'
-  - 'view webform submissions own node'
   - 'view all program revisions'
   - 'view published program entities'
+  - 'view webform submissions own node'
